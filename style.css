@@ -1,0 +1,31 @@
+
+
+#newsContainer{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#newsCategory{
+    display:flex;
+}
+
+.card{
+    box-shadow: 8px 8px 20px rgb(197, 195, 195);
+}
+
+.card:hover{
+    transition-property:all 1s ease-in-out;
+    /* transition-duration:1s; */
+    box-shadow: 0px 0px 0px ;
+}
+
+#dateContent{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    /* width: 100px; */
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 100px;
+}
